@@ -1,0 +1,34 @@
+
+> magicmirror@2.11.0 start /home/pi/projects/MagicMirror
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[2020-06-29 22:36:22.508] [LOG]    Starting MagicMirror: v2.11.0
+[2020-06-29 22:36:22.518] [LOG]    Loading config ...
+[2020-06-29 22:36:22.528] [LOG]    Loading module helpers ...
+[2020-06-29 22:36:22.531] [LOG]    No helper found for module: alert.
+[2020-06-29 22:36:22.592] [LOG]    Initializing new module helper ...
+[2020-06-29 22:36:22.593] [LOG]    Module helper loaded: updatenotification
+[2020-06-29 22:36:22.594] [LOG]    No helper found for module: clock.
+[2020-06-29 22:36:23.171] [LOG]    Initializing new module helper ...
+[2020-06-29 22:36:23.171] [LOG]    Module helper loaded: calendar
+[2020-06-29 22:36:23.172] [LOG]    No helper found for module: compliments.
+[2020-06-29 22:36:23.173] [LOG]    No helper found for module: currentweather.
+[2020-06-29 22:36:23.173] [LOG]    No helper found for module: weatherforecast.
+[2020-06-29 22:36:23.208] [LOG]    Initializing new module helper ...
+[2020-06-29 22:36:23.209] [LOG]    Module helper loaded: newsfeed
+[2020-06-29 22:36:23.209] [LOG]    All module helpers loaded.
+[2020-06-29 22:36:23.369] [LOG]    Starting server on port 8080 ... 
+[2020-06-29 22:36:23.388] [LOG]    Server started ...
+[2020-06-29 22:36:23.389] [LOG]    Connecting socket for: updatenotification
+[2020-06-29 22:36:23.390] [LOG]    Connecting socket for: calendar
+[2020-06-29 22:36:23.391] [LOG]    Starting node helper for: calendar
+[2020-06-29 22:36:23.391] [LOG]    Connecting socket for: newsfeed
+[2020-06-29 22:36:23.392] [LOG]    Starting module: newsfeed
+[2020-06-29 22:36:23.392] [LOG]    Sockets connected & modules started ...
+[2020-06-29 22:36:23.513] [LOG]    Launching application.
+[2020-06-29 22:36:25.773] [LOG]    Create new calendar fetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[2020-06-29 22:36:25.865] [LOG]    Create new news fetcher for url: http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+[2020-06-29 22:37:49.274] [LOG]    Shutting down server...
+[2020-06-29 22:37:49.277] [LOG]    Stopping module helper: updatenotification
+[2020-06-29 22:37:49.278] [LOG]    Stopping module helper: calendar
+[2020-06-29 22:37:49.279] [LOG]    Stopping module helper: newsfeed
